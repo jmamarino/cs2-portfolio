@@ -103,7 +103,7 @@ END
 
 # Part 4 - Clean Code Implementation
 
-Refer to [Score Checker Source Code](./q1/score_checker.py) in the same directory for source code.
+Refer to [Score Checker Source Code](/q1/score_checker.py) in the same directory for source code.
 
 ---
 
