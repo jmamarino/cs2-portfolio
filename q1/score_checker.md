@@ -48,6 +48,8 @@ Scores below 0 or above 100 are considered invalid.
 
 # Part 2 - Flowchart
 
+**Note: I decided to do it in text form because I don't have flowgorithm in my device.**
+
 ```text
        [ START ]
            |
