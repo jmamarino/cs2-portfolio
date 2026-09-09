@@ -240,4 +240,82 @@ Regisraion Code: CS2026
 
 ### Result: PASS
 ### Explanation: All provided inputs satisfied every condition check (name != "", 11 <= age <= 18, 7 <= gradelevel <= 12, @ present in email, and len(code) <= 6). As a result, valid remained True, displaying the accepted summary block.
+
+## Verification Test 2
+**Input:**
+```text
+Enter student name: Juan Dela Cruz
+Enter your age (11-18 only): 20
+Enter your grade level: 8
+Enter your email (student@brc.pshs.edu.ph): juan@brc.pshs.edu.ph
+Enter your registration code: CS2026
+```
+
+## Expected Output
+```text
+Age must be from 11-18.
+REGISTRATION NOT ACCEPTED. Check the comments above to see the clear reasons to see why you are not registered
+```
+
+---
+
+## Actual Output
+```text
+Age must be from 11-18.
+REGISTRATION NOT ACCEPTED. Check the comments above to see the clear reasons to see why you are not registered
+```
+---
+
+### Result: PASS
+### Explanation: The age input 20 triggered the range check age > 18, which printed the error message and flipped the flag to valid = False, properly failing the registration.
+
+## Verification Test 3
+**Input:**
+```text
+Enter student name: Juan Dela Cruz
+Enter your age (11-18 only): 15
+Enter your grade level: 8
+Enter your email (student@brc.pshs.edu.ph): juan@brc.pshs.edu.ph
+Enter your registration code: EXCEED12345
+```
+
+## Expected Output
+```text
+Invalid registration code.
+REGISTRATION NOT ACCEPTED. Check the comments above to see the clear reasons to see why you are not registered
+```
+
+---
+
+## Actual Output
+```text
+Invalid regristration code.
+REGISTRATION NOT ACCEPTED. Check the comments above to see the clear reasons to see why you are not registered
+```
+---
+
+### Result: PASS
+### Explanation: The code string EXCEED12345 has a character length greater than 6, triggering len(code) > 6. This correctly flagged valid = False and rejected the registration.
   
+# Reflection
+
+### 1. Why should a program validate input before processing it?
+> Validating input protects software from unexpected crashes, prevents invalid data from entering databases, and provides immediate, user-friendly feedback to correct errors.
+### 2. What is the difference between input validation and output verification?
+> Input validation happens during execution to verify that incoming data meets required rules, whereas output verification happens after execution to confirm that actual outputs match expected test outcomes.
+### 3. Which validation technique was easiest for you to implement? Why?
+> Presence validation (name == "") was the easiest to implement because it only requires a straightforward equality check against an empty string.
+### 4. Which validation technique was most challenging? Why?
+> Data type validation was the most challenging because casting inputs directly with int() can crash the program with a ValueError if non-numeric characters are entered, requiring structured error handling to prevent.
+### 5. How did testing invalid inputs help you improve your program?
+> Testing invalid inputs helped verify that every failed check successfully set the boolean control flag valid = False and displayed the corresponding error message as expected.
+---
+# Files for This Activity
+- [`workshop_validator.py`](workshop_validator.py)
+- `input_validation.md`
+- Note: There is no Flowchart in this markdown. I used pseudocode.
+---
+[← Back to Main Portfolio](../README.md)
+
+  
+
