@@ -211,7 +211,7 @@ Enter your email (student@brc.pshs.edu.ph): maria@brc.pshs.edu.ph
 Enter your regristation code: CS2026
 ```
 
-# Expected Output
+## Expected Output
 ```text
 ----------------
 REGISTRATION ACCEPTED
@@ -225,6 +225,7 @@ Registraion Code: CS2026
 
 ---
 
+## Actual Output
 ```text
 ----------------
 REGISTRATION ACCEPTED
@@ -237,7 +238,6 @@ Regisraion Code: CS2026
 ```
 ---
 
-# Result: PASS
-# Explanation:
-# All provided inputs satisfied every condition check (name != "", 11 <= age <= 18, 7 <= gradelevel <= 12, @ present in email, and len(code) <= 6). As a result, valid remained True, displaying the accepted summary block.
+### Result: PASS
+### Explanation: All provided inputs satisfied every condition check (name != "", 11 <= age <= 18, 7 <= gradelevel <= 12, @ present in email, and len(code) <= 6). As a result, valid remained True, displaying the accepted summary block.
   
