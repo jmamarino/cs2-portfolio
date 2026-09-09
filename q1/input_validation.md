@@ -18,6 +18,7 @@ The program validates:
 ---
 # Part A - Validation Requirements
 Complete the table below before writing your program.
+
 | Data Captured | Expected Input | Validation Type | Invalid Input Example | Validation Rule | Error
 Message |
 |---|---|---|---|---|---|
@@ -26,7 +27,9 @@ Message |
 | Grade Level | 7, 8, 9, 10, 11, and 12 | Acceptable Value | 13 | Must be one of: 7, 8, 9, 10, 11, 12 | Invalid Grade Level. |
 | Email Address | String with @ and . | Simple Pattern | studentpshs.edu.ph | Must contain both @ and . characters | Invalid email.  |
 | Registration Code | String of 6 characters | Length | A123 | Length must be exactly 6 characters | Invalid registration code. |
+
 ---
+
 ## Validation Questions
 ### 1. Why should the student name not be blank?
 > So your registration can be accepted.
