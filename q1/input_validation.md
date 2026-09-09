@@ -21,11 +21,11 @@ Complete the table below before writing your program.
 | Data Captured | Expected Input | Validation Type | Invalid Input Example | Validation Rule | Error
 Message |
 |---|---|---|---|---|---|
-| Student Name | | | | | |
-| Age | | | | | |
-| Grade Level | | | | | |
-| Email Address | | | | | |
-| Registration Code | | | | | |
+| Student Name | Non-empty text | Presence | "" (empty) | Name must not be blank. | Your input of name is blank. |
+| Age | Integer (11 to 18) | Data Type & Range | fourteen / 25 | Must be an integer from 11 to 18 | Age must be from 11-18 |
+| Grade Level | 7, 8, 9, 10, 11, and 12 | Acceptable Value | 13 | Must be one of: 7, 8, 9, 10, 11, 12 | Invalid Grade Level. |
+| Email Address | String with @ and . | Simple Pattern | studentpshs.edu.ph | Must contain both @ and . characters | Invalid email.  |
+| Registration Code | String of 6 characters | Length | A123 | Length must be exactly 6 characters | Invalid registration code. |
 ---
 ## Validation Questions
 ### 1. Why should the student name not be blank?
@@ -35,7 +35,7 @@ Message |
 ### 3. Why should grade level only accept specific values?
 > So we can only get G7-12 students for the registration.
 ### 4. What format requirements did you use for the email address?
-> The email address should include the character "@".
+> The email address should include the character "@" and a period ".".
 ### 5. What length requirement did you use for the registration code?
 > Strictly 6 characters only.
 ---
