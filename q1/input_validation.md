@@ -312,7 +312,7 @@ REGISTRATION NOT ACCEPTED. Check the comments above to see the clear reasons to 
 ---
 # Files for This Activity
 - [`workshop_validator.py`](workshop_validator.py)
-- `input_validation.md`
+- .[_`input_validation.md`_](input_validation.md)
 - Note: There is no Flowchart in this markdown. I used pseudocode.
 ---
 [← Back to Main Portfolio](../README.md)
