@@ -175,3 +175,27 @@ Explain where you used data type validation.
 ### Range Validation
 Explain where you used range validation.
 > Used on the Age input (age < 11 or age > 18) to ensure that the age is between 11 and 18.
+
+---
+
+# Part D - Testing
+
+Test your program using both valid and invalid inputs.
+
+| Test | Input / Condition | Validation Being Tested | Expected Output | Actual Output | Result |
+|---:|---|---|---|---|---|
+| 1 | All inputs valid | Normal case | REGISTRATION ACCEPTED | REGISTRATION ACCEPTED | PASS |
+| 2 | Blank student name | Presence | Your input of name is blank. <br> REGISTRATION NOT ACCEPTED. | Your input of name is blank. <br> REGISTRATION NOT ACCEPTED. | PASS |
+| 3 | Age = `fourteen` | Data type | Program stops / ValueError | Program stops / ValueError | PASS |
+| 4 | Age = `11` | Minimum boundary | REGISTRATION ACCEPTED | REGISTRATION ACCEPTED | PASS |
+| 5 | Age = `18` | Maximum boundary | REGISTRATION ACCEPTED | REGISTRATION ACCEPTED | PASS |
+| 6 | Age = `10` | Range | Age must be from 11-18. <br> REGISTRATION NOT ACCEPTED. | Age must be from 11-18. <br> REGISTRATION NOT ACCEPTED. | PASS |
+| 7 | Grade Level = `13` | Acceptable value | Invalid grade level. <br> REGISTRATION NOT ACCEPTED. | Invalid grade level. <br> REGISTRATION NOT ACCEPTED. | PASS |
+| 8 | Email = `studentpshs.edu.ph` | Pattern | Invalid email. <br> REGISTRATION NOT ACCEPTED. | Invalid email. <br> REGISTRATION NOT ACCEPTED. | PASS |
+| 9 | Registration Code = `ABC` | Length | REGISTRATION ACCEPTED (Length <= 6) | REGISTRATION ACCEPTED | PASS |
+| 10 | Registration Code = `CS2026` | Valid length | REGISTRATION ACCEPTED | REGISTRATION ACCEPTED | PASS |
+
+> **Note on Test 3:** Passing `fourteen` into `int(input())` raises a `ValueError` during input casting, causing execution to stop before reaching the `if` checks.  
+> **Note on Test 9:** Your code checks `len(code) > 6`, so a shorter 3-character code like `ABC` passes length validation in your implementation.
+
+---
