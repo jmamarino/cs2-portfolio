@@ -29,22 +29,22 @@ Message |
 ---
 ## Validation Questions
 ### 1. Why should the student name not be blank?
-> Write your answer here.
+> So your registration can be accepted.
 ### 2. Why should age be checked for both data type and range?
-> Write your answer here.
+> So the user can find its range. After the user founded the range, the user will either give a correct answer or not.
 ### 3. Why should grade level only accept specific values?
-> Write your answer here.
+> So we can only get G7-12 students for the registration.
 ### 4. What format requirements did you use for the email address?
-> Write your answer here.
+> The email address should include the character "@".
 ### 5. What length requirement did you use for the registration code?
-> Write your answer here.
+> Strictly 6 characters only.
 ---
 # Part B - Program Design
 Before writing your program, create either a **flowchart or pseudocode** showing its logic.
 ## Flowchart
 Insert your flowchart below.
 ![Workshop Validator Flowchart](workshop_validator_flowchart.png)
-OR
+
 ## Pseudocode
 
 ```text
