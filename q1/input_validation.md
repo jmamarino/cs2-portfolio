@@ -195,7 +195,49 @@ Test your program using both valid and invalid inputs.
 | 9 | Registration Code = `ABC` | Length | REGISTRATION ACCEPTED (Length <= 6) | REGISTRATION ACCEPTED | PASS |
 | 10 | Registration Code = `CS2026` | Valid length | REGISTRATION ACCEPTED | REGISTRATION ACCEPTED | PASS |
 
-> **Note on Test 3:** Passing `fourteen` into `int(input())` raises a `ValueError` during input casting, causing execution to stop before reaching the `if` checks.  
-> **Note on Test 9:** Your code checks `len(code) > 6`, so a shorter 3-character code like `ABC` passes length validation in your implementation.
+---
+
+# Part E - Output Verification
+
+Choose any **three tests** from Part D.
+
+## Verification Test 1
+**Input:**
+```text
+Enter student name: Maria Santos
+Enter your age (11-18 only): 14
+Enter your grade level: 8
+Enter your email (student@brc.pshs.edu.ph): maria@brc.pshs.edu.ph
+Enter your regristation code: CS2026
+```
+
+# Expected Output
+```text
+----------------
+REGISTRATION ACCEPTED
+----------------
+Student Maria Santos
+Age: 14
+Grade Level: 8
+Email: maria@brc.pshs.edu.ph
+Registraion Code: CS2026
+```
 
 ---
+
+```text
+----------------
+REGISTRATION ACCEPTED
+----------------
+Student Maria Santos
+Age: 14
+Grade Level: 8
+Email: maria@brc.pshs.edu.ph
+Regisraion Code: CS2026
+```
+---
+
+# Result: PASS
+# Explanation:
+# All provided inputs satisfied every condition check (name != "", 11 <= age <= 18, 7 <= gradelevel <= 12, @ present in email, and len(code) <= 6). As a result, valid remained True, displaying the accepted summary block.
+  
