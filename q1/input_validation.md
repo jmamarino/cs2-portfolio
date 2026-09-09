@@ -115,58 +115,63 @@ END
 ```
 ---
 
-# Part C - Program Implementation[span_1](start_span)[span_1](end_span)
-
-## Programming Language[span_2](start_span)[span_2](end_span)
-Python 3[span_3](start_span)[span_3](end_span)
-
-## Source Code File[span_4](start_span)[span_4](end_span)
-[`workshop_validator.py`](workshop_validator.py)[span_5](start_span)[span_5](end_span)
-
-## Final Code[span_6](start_span)[span_6](end_span)
-
+# Part C - Program Implementation
+## Programming Language
+> Write the programming language used.
+## Source Code File
+[`workshop_validator.py`](workshop_validator.py)
+## Final Code
 ```python
-valid = True
-
 name = str(input("Enter student name: "))
 
 if name == "":
-    print("Your input of name is blank.")
-    valid = False
+  print("Your input of name is blank.")
+  valid = False
 
 age = int(input("Enter your age (11-18 only): "))
   
 if age < 11 or age > 18:
-    print("Age must be from 11-18.")
-    valid = False
+  print("Age must be from 11-18.")
+  valid = False
 
 gradelevel = int(input("Enter your grade level: "))
 
 if gradelevel < 7 or gradelevel > 12:
-    print("Invalid grade level.")
-    valid = False
+  print("Invalid grade level.")
+  valid = False
 
 email = str(input("Enter your email (student@brc.pshs.edu.ph): "))
 
 if "@" not in email:
-    print("Invalid email.")
-    valid = False
+  print("Invalid email.")
+  valid = False
   
 code = str(input("Enter your regristation code: "))
 
 if len(code) > 6:
-    print("Invalid regristration code.")
-    valid = False
+  print("Invalid regristration code.")
+  valid = False
 
 if valid:
-    print("----------------")
-    print("REGISTRATION ACCEPTED")
-    print("----------------")
-    print(f"Student {name}")
-    print(f"Age: {age}")
-    print(f"Grade Level: {gradelevel}")
-    print(f"Email: {email}")
-    print(f"Regisraion Code: {code}")
+  print("----------------")
+  print("REGISTRATION ACCEPTED")
+  print("----------------")
+  print(f"Student {student}")
+  print(f"Age: {age}")
+  print(f"Grade Level: {gradelevel}")
+  print(f"Email: {email}")
+  print(f"Regisraion Code: {code}")
 else:
-    print("REGISTRATION NOT ACCEPTED. Check the comments above to see the clear reasons to see why you are not registered")
-
+  print("REGISTRATION NOT ACCEPTED. Check the comments above to see the clear reasons to see why you are not registered. 
+```
+---
+## Validation Techniques Used
+### Presence Validation
+Explain where you used presence validation.
+> Used on the Student Name input to check if the string is empty (name == "").
+### Data Type Validation
+Explain where you used data type validation.
+> Used on the Age and Grade Level inputs by putting the input string to an integer using int().
+### Range Validation
+Explain where you used range validation.
+> Used on the Age input (age < 11 or age > 18) to ensure that the age is between 11 and 18.
