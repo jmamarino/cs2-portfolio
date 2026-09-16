@@ -7,6 +7,14 @@ Links:
 
 >[MARIÑO_JAMESMATTHEW_Distance.py](q1/MARIÑO_JAMESMATTHEW_Distance.py)
 
->[scorechecker.md](Q1/scorechecker.md)
+>[scorechecker.py](q1/scorechecker.py)
+
+>[scorechecker.md](q1/scorechecker.md)
+
+>[workshop_validator.py](q1/workshop_validator.py)
+
+>[input_validation.md](q1/input_validation.md)
+
+
 
 
