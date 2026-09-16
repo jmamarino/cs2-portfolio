@@ -7,3 +7,6 @@ Links:
 
 >[MARIÑO_JAMESMATTHEW_Distance.py](q1/MARIÑO_JAMESMATTHEW_Distance.py)
 
+>[scorechecker.md](Q1/scorechecker.md)
+
+
