@@ -1,6 +1,6 @@
 # Fundamentals of Cybersecurity and Data Privacy
 **Activity:** PSHS Secure Club Registration System
-**Name:** [Your Full Name]
+**Name:** [James Matthew A. Mariño]
 **Section:** Dahlia
 **Quarter:** 1
 
@@ -33,10 +33,10 @@ The threat shown is **Phishing** (specifically, account-deactivation scam / cred
 - [ ] Network
 - [ ] Financial information
 
-**Explanation:** The attacker aims to steal user credentials. If successful, the student's account and all personal data stored within that account (e.g., grades, emails, personal information) will be compromised.
+**Explanation:** The attacker aims to steal the user credentials. If successful, the student's account and all personal data stored within that account (e.g., grades, emails, personal information) will be compromised.
 
 ### 4. What information could be exposed or misused?
-Usernames, passwords, personal student emails, academic records, and private communications within the school platform could be exposed or misused.
+Usernames, passwords, personal student emails, academic records, and private communications within the school platform may be exposed or misused.
 
 ### 5. What should the user do to reduce the risk?
 - Do **not** click any links or enter credentials.
@@ -61,7 +61,7 @@ Usernames, passwords, personal student emails, academic records, and private com
 
 ## Privacy Question
 ### Why is it safer to collect only information that the program actually needs?
-Collecting only necessary data adheres to the principle of **Data Minimization**. If the database or system is ever breached, attackers cannot access sensitive information (such as financial or login details) because it was never collected in the first place.
+Collecting only necessary data follows the principle of **Data Minimization**. If the database or system is ever breached or accesed, attackers cannot access sensitive information (such as financial or login details) because it was never collected in the first place.
 
 ---
 
@@ -84,7 +84,7 @@ Inputs that pass all strict validation checks: valid non-empty names, recognized
 Blank fields, unrecognized sections or clubs, improperly formatted emails, and invalid attendance statuses.
 
 ### 3. How do your validation rules help reduce incorrect or unsafe input?
-Validation rules ensure that the system only processes clean, structured data, preventing erroneous records and blocking potential injection attacks or unexpected software crashes caused by invalid data.
+Validation rules ensure that the system only processes clean, structured data, preventing errors and blocking potential injection attacks or unexpected software crashes caused by invalid data.
 
 ---
 
