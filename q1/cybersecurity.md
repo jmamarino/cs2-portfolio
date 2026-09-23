@@ -100,9 +100,9 @@ Create a simple **PSHS Club Registration System**.
 ```python
 # PSHS Secure Club Registration System
 
-VALID_SECTIONS = ["Dahlia"]
-VALID_CLUBS = ["Robotics", "Science", "Mathematics", "Programming"]
-VALID_ATTENDANCE = ["Present", "Absent", "Late"]
+section = ["Dahlia"]
+club = ["Robotics", "Science", "Mathematics", "Programming"]
+attendance = ["Present", "Absent", "Late"]
 
 def main():
     print("=== PSHS Secure Club Registration System ===")
@@ -115,13 +115,13 @@ def main():
 
     # 2. Section Validation
     section = input("Enter Section: ").strip()
-    if section not in VALID_SECTIONS:
+    if section not in section:
         print("Error: Please enter a valid section.")
         return
 
     # 3. Club Choice Validation
     club_choice = input("Enter Club Choice: ").strip()
-    if club_choice not in VALID_CLUBS:
+    if club_choice not in club:
         print("Error: Please choose a valid club.")
         return
 
@@ -133,7 +133,7 @@ def main():
 
     # 5. Attendance Status Validation
     attendance = input("Enter Attendance Status: ").strip()
-    if attendance not in VALID_ATTENDANCE:
+    if attendance not in attendance:
         print("Error: Invalid attendance status. Must be Present, Absent, or Late.")
         return
 
