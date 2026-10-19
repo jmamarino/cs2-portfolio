@@ -15,7 +15,7 @@
 
 >[input_validation.md](q1/input_validation.md)
 
->[secure_registration.py](q1/secure_regristation.py)
+>[secure_registration.py](q1/secure_registation.py)
 
 >[cybersecurity.md](q1/cybersecurity.md)
 
