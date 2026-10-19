@@ -2,7 +2,7 @@
 ## James Matthew A. Mariño
 ## 8-Dahlia
 
-Links:
+1st Quarter Links:
 >[hello.py](q1/hello.py)
 
 >[MARIÑO_JAMESMATTHEW_Distance.py](q1/MARIÑO_JAMESMATTHEW_Distance.py)
@@ -14,6 +14,13 @@ Links:
 >[workshop_validator.py](q1/workshop_validator.py)
 
 >[input_validation.md](q1/input_validation.md)
+
+>[secure_registration.py](q1/secure_regristation.py)
+
+>[cybersecurity.md](q1/cybersecurity.md)
+
+2nd Quarter Links:
+>[canteenpurchase_calculator.py](q2/canteenpurchase_calculator.py)
 
 
 
