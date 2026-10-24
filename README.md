@@ -22,6 +22,8 @@
 2nd Quarter Links:
 >[canteenpurchase_calculator.py](q2/canteenpurchase_calculator.py)
 
+>[student_performance_evaluator.py](q2/student_performance_evaluator.py)
+
 
 
 
