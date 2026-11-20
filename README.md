@@ -24,7 +24,9 @@
 
 >[student_performance_evaluator.py](q2/student_performance_evaluator.py)
 
->[programmingexercises1](q2/programmingexercises1)
+>[programmingexercises1 (folder)](q2/programmingexercises1)
+
+>[programmingexercises2.py](q2/programmingexercises2)
 
 
 
