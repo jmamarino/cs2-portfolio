@@ -1,4 +1,4 @@
-# cs2-portfolio
+1# cs2-portfolio
 ## James Matthew A. Mariño
 ## 8-Dahlia
 
@@ -26,7 +26,7 @@
 
 >[programmingexercises1 (folder)](q2/programmingexercises1)
 
->[programmingexercises2.py](q2/programmingexercises2)
+>[programmingexercises2.py](q2/programmingexercises2.py)
 
 
 
